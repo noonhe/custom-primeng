@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { PrimengComponentsModule } from './primeng-components.module';
 import { CustomPrimengComponentsModule } from './custom-primeng-components/custom-primeng-components.module';
 import { FormsModule } from '@angular/forms';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
